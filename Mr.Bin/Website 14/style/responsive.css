@@ -1,0 +1,87 @@
+/*
+* Responsive code for website
+*/
+@media screen and (max-width:800px)
+{   
+    main
+    {
+       width:80vw !important;
+    }
+    #gallary
+    {
+       grid-template-columns: repeat(2,1fr);
+    }
+    #gallary img
+    {
+        margin:5%;
+        width:90%;
+    }
+}
+@media screen and (max-width:780px)
+{   
+    .icon
+    {
+        width:50px;
+        height:50px;
+    }
+    #box1
+    {
+
+        flex-flow: column wrap;
+    }
+    #detail p
+    {
+        margin-right:100px;
+        padding:20px;
+    }
+    #picture img
+    {
+        border-left:none;
+        border-top:2px solid #ffa013;
+    }
+    #gallary
+    {
+       grid-template-columns: 1fr;
+    }
+    #gallary img
+    {
+        margin:5%;
+        width:90%;
+    }
+    #box4
+    {
+        grid-template-columns:100%;
+        grid-template-rows:1fr 1fr 1fr 5fr 1fr 1fr !important;
+    }
+    textarea
+    {
+        grid-row:4/5;
+    }
+    .field:nth-child(2)
+    {
+        grid-column: 1/-1;
+        grid-row:2/3;
+    }
+    .field:last-child
+    {
+        grid-column: 1/-1;
+        grid-row: 3/4;
+    }
+    .button:first-child
+    {
+        grid-column: 1/-1;
+        grid-row: 5/6;
+    }
+    .button:last-child
+    {
+        grid-column: 1/-1;
+        grid-row:6/7;
+    }
+}
+@media screen and (max-width:650px)
+{
+    .right
+    {
+        margin:50px auto !important;
+    }
+}

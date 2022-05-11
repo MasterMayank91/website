@@ -1,0 +1,29 @@
+/*
+*   Website 13 
+*   FRAME : box 5 detail CSS
+*/
+
+.box
+{
+    background:rgba(255,255,255,0.7);
+}
+.icon
+{
+    width:60px;
+    height:60px;
+    padding:10px;
+    border-radius:5px;
+    transition:all 0.5s linear;
+}
+.icon:hover
+{
+    background:#fff;
+}
+a
+{
+    color:#333;
+}
+a:hover
+{
+    text-decoration:underline;
+}

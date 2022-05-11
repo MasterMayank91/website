@@ -1,0 +1,30 @@
+/*
+* Website 13 
+* FRAME : box 2 detail CSS
+*/
+
+#box2
+{
+    width:100%;
+    height:auto;
+    display:grid;
+}
+#info
+{
+    padding:20px;
+}
+#gallary
+{
+    position:relative;
+    width:100%;
+    height:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+}
+#gallary img
+{
+    margin:5%;
+    width:80%;
+    height:auto;
+    object-fit:cover;
+}

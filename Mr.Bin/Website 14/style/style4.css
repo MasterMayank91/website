@@ -1,0 +1,65 @@
+/*
+*   Website 13 
+*   FRAME : box 4 detail CSS
+*/
+
+
+#box4
+{
+    width:90%;
+    padding:5%;
+    height:auto;
+    display:grid;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr 5fr 1fr;
+    grid-gap:20px;
+}
+.field
+{
+    grid-column:1/-1;
+    padding:10px;
+    background:#fff;
+    color:#000;
+}
+.field:focus
+{
+    border-bottom:1px solid #ffa013;
+}
+.field:first-child
+{
+    grid-column:1/2;
+}
+.field:nth-child(2)
+{
+    grid-column:2/3;
+}
+textarea
+{
+    grid-column:1/-1;
+    padding:10px;
+    color:#000;
+}
+textarea:focus
+{
+    border:1px solid #ffa013;
+}
+.button
+{
+    padding:20px;
+    background:#000;
+    color:#fff;
+    transition:all 0.3s linear;
+}
+.button:hover
+{
+    background:#ffa013;
+}
+.button:first-child
+{
+    grid-column:1/2;
+}
+.button:last-child
+{
+    grid-column:2/3;
+}
